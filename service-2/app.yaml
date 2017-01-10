@@ -1,0 +1,3 @@
+service: service-2
+runtime: nodejs
+env: flex

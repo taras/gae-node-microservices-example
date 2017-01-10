@@ -1,0 +1,5 @@
+dispatch:
+    - url: "*/service-1/*"
+      module: service-1
+    - url: "*/service-2/*"
+      module: service-2
