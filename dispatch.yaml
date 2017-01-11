@@ -1,5 +1,5 @@
 dispatch:
-    - url: "*/service-1/*"
+    - url: "service-1-dot-node-microservices-example.appspot-preview.com/"
       module: service-1
     - url: "*/service-2/*"
       module: service-2

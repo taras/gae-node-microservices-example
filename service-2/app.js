@@ -4,7 +4,7 @@ const express = require('express');
 
 const app = express();
 
-app.get('/service-2/hello', (req, res) => {
+app.get('/service-2/', (req, res) => {
     res.status(200).send('Service 2: Hello, world!');
 });
 
