@@ -1,11 +1,11 @@
-"use strict"; 
+"use strict";
 
 const express = require('express'); 
 
 const app = express(); 
 
-app.get('/', (req, res) => {    
-   res.status(200).send('Hello world!');
+app.get('/admin', (req, res) => {    
+   res.status(200).send('Admin Section');
 });
 
 app.listen(process.env.PORT);
