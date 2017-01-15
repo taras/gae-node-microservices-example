@@ -1,0 +1,26 @@
+{
+  "name": "node-microservices-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taras/gae-node-microservices-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taras/gae-node-microservices-example/issues"
+  },
+  "homepage": "https://github.com/taras/gae-node-microservices-example#readme",
+  "dependencies": {
+    "express": "4.14.0"
+  }
+}
